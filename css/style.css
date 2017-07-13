@@ -1,37 +1,65 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 html {
-	background: #E5E5E5;
-	height: 100%;
+	background: #C3C3C3;
 }
 
 
-body {
+div.content {
 	margin: 0 auto;
 	background: #e8f7fc;
 	width: 50%;
 	height: 100%;
+	position: relative;
 }
 
 h1 {
 	margin-top: 0;
 	padding-top: 20%;
-	font-size: 7em;
+	font-size: 5em;
+
 }
 
-h1, h3, p {
+.blueText {
+	color: #00baff;
+}
+
+p {
+	margin: 0 15%;
+}
+
+p.bottom {
+	margin-bottom: 0;
+	padding: 5% 0;
+}
+
+
+h3 {
+
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: #00baff;
+}
+
+a:hover, a:active {
+	color: #030303;
+}
+
+h1, h3, p, a {
 	text-align: center;
 	font-family: 'PT Sans', sans-serif;
 }
 
 @media screen and (max-width: 850px) {
-	body {
+	div.content {
 		width: 100%;
 	}
 }
 
 @media screen and (max-width: 400px) {
 	h1 {
-		font-size: 5em;
+		font-size: 4em;
 	}
 }
